@@ -68,9 +68,9 @@ const admin = () => {
         <button style={{backgroundColor:"black",paddingRight:"10px",fontSize:"1vw"}} className="dropbtn">PROFILE
         </button>
         <div style={{backgroundColor:"black"}} class="dropdown-content">
-          <a style={{color:"white",fontSize:"1vw"}}href="/orderf">check orders</a>
-          <a style={{color:"white",fontSize:"1vw"}} href="/chpa">change password</a>
-          <a style={{color:"white",fontSize:"1vw"}} href="/airinfo">Airline info</a>
+          <a style={{color:"white",fontSize:"1vw"}}href="airline_main/#/orderf">check orders</a>
+          <a style={{color:"white",fontSize:"1vw"}} href="airline_main/#/chpa">change password</a>
+          <a style={{color:"white",fontSize:"1vw"}} href="airline_main/#/airinfo">Airline info</a>
     
           
           <a onClick={deletefun} style={{color:"white",fontSize:"1vw"}}href="/">Logout</a>

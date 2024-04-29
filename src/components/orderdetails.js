@@ -137,9 +137,9 @@ const Orderd = () => {
                             <div className="dropdown">
                                 <button  style={{backgroundColor:"black"}}className="dropbtn">PROFILE</button>
                                 <div style={{ backgroundColor: "black" }} class="dropdown-content">
-                                    <a style={{ color: "white", fontSize: "1vw", }} href="/home">profile</a>
-                                    <a style={{ color: "white", fontSize: "1vw" }} href="/orderf">check orders</a>
-                                    <a style={{ color: "white", fontSize: "1vw" }} href="/chpa">change password</a>
+                                    <a style={{ color: "white", fontSize: "1vw", }} href="airline_main/#/home">profile</a>
+                                    <a style={{ color: "white", fontSize: "1vw" }} href="airline_main/#/orderf">check orders</a>
+                                    <a style={{ color: "white", fontSize: "1vw" }} href="airline_main/#/chpa">change password</a>
                                     <a onClick={deletefun} style={{ color: "white", fontSize: "1vw" }} href="/">Logout</a>
                                 </div>
                             </div>

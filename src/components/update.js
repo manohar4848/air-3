@@ -62,9 +62,9 @@ const Airinfo = () => {
                                 </button>
                                 <div style={{ backgroundColor: "black" }} class="dropdown-content">
                                     <a style={{ color: "white", fontSize: "1vw" }} href="#">User info</a>
-                                    <a style={{ color: "white", fontSize: "1vw" }} href="/orderf">check orders</a>
-                                    <a style={{ color: "white", fontSize: "1vw" }} href="/chpa">change password</a>
-                                    <a style={{ color: "white", fontSize: "1vw" }} href="/admin">Add Airline</a>
+                                    <a style={{ color: "white", fontSize: "1vw" }} href="airline_main/#/orderf">check orders</a>
+                                    <a style={{ color: "white", fontSize: "1vw" }} href="airline_main/#/chpa">change password</a>
+                                    <a style={{ color: "white", fontSize: "1vw" }} href="airline_main/#/admin">Add Airline</a>
 
                                     <a onClick={deletefun} style={{ color: "white", fontSize: "1vw" }} href="/">Logout</a>
 
