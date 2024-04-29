@@ -1,5 +1,5 @@
 const config=
 {
-    url:'http://localhost:8082'
+    url:'https://airline-second.onrender.com'
 };
 export default config;
