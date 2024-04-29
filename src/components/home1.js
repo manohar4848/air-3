@@ -74,8 +74,8 @@ const Home = () => {
       <div style={{backgroundColor:"black"}} class="dropdown-content">
         <a   style={{color:"white",fontSize:"1vw"}}href="#">profile</a>
         <a style={{color:"white",fontSize:"1vw"}}href="#">check orders</a>
-        <a style={{color:"white",fontSize:"1vw"}} href="/chpa">change password</a>
-        <a style={{color:"white",fontSize:"1vw"}} href="/botc">book ticket</a>
+        <a style={{color:"white",fontSize:"1vw"}} href="airline_main/#/chpa">change password</a>
+        <a style={{color:"white",fontSize:"1vw"}} href="airline_main/#/botc">book ticket</a>
 
         
         <a onClick={deletefun} style={{color:"white",fontSize:"1vw"}}href="/">Logout</a>
