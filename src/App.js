@@ -40,12 +40,6 @@ function App() {
           <Route path="/update" element={<Update />}/>  
           <Route path="/success" element={<Success />}/>
           <Route path="/orderf" element={<Orderf />}/>  
-  
-
-
-  
-
-
             
                
         </Routes>
